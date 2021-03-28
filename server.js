@@ -2,8 +2,8 @@
 
 const express= require('express');
 const app= express();
-const notFoundHandler= require('./error-handler/404.js');
-const errorHandler=require('./error-handler/500.js');
+const notFoundHandler= require('./error-handlers/404.js');
+const errorHandler=require('./error-handlers/500.js');
 
 app.get('/',(req,res)=>{
     res.send('Hello There');
