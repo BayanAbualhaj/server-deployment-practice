@@ -4,7 +4,7 @@ const { it, expect } = require('@jest/globals');
 const superTest = require('supertest');
 const { describe } = require('yargs');
 const server = require('../server.js');
-const request = superTest(sever.app);
+const request = superTest(server.app);
 
 describe('server',()=>{
     it('handle invalid routs',async()=>{
