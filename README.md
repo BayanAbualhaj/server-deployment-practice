@@ -7,3 +7,6 @@
 
 ## whiteboard 
 
+
+![uml](https://raw.githubusercontent.com/BayanAbualhaj/server-deployment-practice/master/assets/Blank%20board.png
+)
